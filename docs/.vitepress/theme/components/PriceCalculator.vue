@@ -37,13 +37,13 @@ const money = (value) => new Intl.NumberFormat('ru-RU', { maximumFractionDigits:
 </template>
 
 <style scoped>
-.price-calc { margin: 24px 0; padding: 20px; border: 1px solid rgba(248,250,252,.16); border-radius: 8px; background: #101217; }
+.price-calc { margin: 24px 0; padding: 22px; border: 1px solid rgba(33,22,45,.14); border-radius: 22px; background: rgba(255,255,255,.78); box-shadow: 0 14px 44px rgba(33,22,45,.06); }
 .price-calc__grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
-label { display: grid; gap: 7px; color: rgba(248,250,252,.72); font-size: 13px; font-weight: 700; }
-input, select { width: 100%; min-height: 44px; padding: 10px 12px; border: 1px solid rgba(248,250,252,.16); border-radius: 7px; background: #08090d; color: #f8fafc; font: inherit; }
-input:focus, select:focus { outline: 2px solid rgba(54,224,194,.35); border-color: #36e0c2; }
-.price-calc__result { margin-top: 18px; padding-top: 18px; border-top: 1px solid rgba(248,250,252,.12); }
-.price-calc__result span, .price-calc__result small { display: block; color: rgba(248,250,252,.65); }
-.price-calc__result strong { display: block; margin: 4px 0 6px; color: #36e0c2; font-size: clamp(30px,5vw,48px); line-height: 1; }
+label { display: grid; gap: 7px; color: #62566d; font-size: 13px; font-weight: 750; }
+input, select { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid rgba(33,22,45,.16); border-radius: 12px; background: #fffaf2; color: #21162d; font: inherit; }
+input:focus, select:focus { outline: 3px solid rgba(32,178,170,.18); border-color: #20b2aa; }
+.price-calc__result { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(33,22,45,.12); }
+.price-calc__result span, .price-calc__result small { display: block; color: #62566d; }
+.price-calc__result strong { display: block; margin: 5px 0 8px; color: #087d70; font-size: clamp(32px,5vw,50px); line-height: 1; letter-spacing: -.04em; }
 @media (max-width: 680px) { .price-calc__grid { grid-template-columns: 1fr; } }
 </style>

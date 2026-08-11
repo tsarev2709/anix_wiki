@@ -3,32 +3,58 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'ru-RU',
   title: 'Anix Wiki',
-  description: 'Внутренняя база знаний Anix: продажи, производство, продукты и экспертиза',
+  description: 'Рабочая база знаний Anix: онбординг, продажи, продукты, производство и доказательная база',
   cleanUrls: true,
   lastUpdated: true,
+  appearance: false,
   head: [
-    ['meta', { name: 'theme-color', content: '#08090d' }],
-    ['meta', { name: 'robots', content: 'noindex,nofollow' }]
+    ['meta', { name: 'theme-color', content: '#f7f4ef' }],
+    ['meta', { name: 'robots', content: 'noindex,nofollow' }],
+    ['link', { rel: 'icon', href: 'https://studio.anix-ai.pro/anix_wand.png' }]
   ],
   themeConfig: {
-    logo: false,
+    logo: 'https://studio.anix-ai.pro/anix_wand.png',
     siteTitle: 'ANIX / WIKI',
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        translations: {
+          button: { buttonText: 'Поиск', buttonAriaLabel: 'Открыть поиск' },
+          modal: {
+            noResultsText: 'Ничего не найдено',
+            resetButtonTitle: 'Очистить поиск',
+            footer: { selectText: 'выбрать', navigateText: 'перейти', closeText: 'закрыть' }
+          }
+        }
+      }
     },
     nav: [
       { text: 'Старт', link: '/start-here' },
       { text: 'Продажи', link: '/sales/' },
-      { text: 'Экспертиза', link: '/expertise/' },
-      { text: 'Производство', link: '/production/' },
-      { text: 'Калькуляторы', link: '/calculators/' }
+      {
+        text: 'Продукты',
+        items: [
+          { text: 'Линейка продуктов', link: '/products/' },
+          { text: 'Фарма', link: '/products/pharma' },
+          { text: 'HSE и охрана труда', link: '/products/hse' },
+          { text: 'MedTech', link: '/products/medtech' },
+          { text: 'Сложный B2B', link: '/products/b2b' },
+          { text: 'Корпоративное обучение', link: '/products/learning' }
+        ]
+      },
+      { text: 'Кейсы', link: '/cases/' },
+      { text: 'Библиотека', link: '/library/' },
+      { text: 'Anix Studio ↗', link: 'https://studio.anix-ai.pro/' }
     ],
     sidebar: [
       {
         text: 'Начало',
+        collapsed: false,
         items: [
           { text: 'Главная', link: '/' },
-          { text: 'Как пользоваться wiki', link: '/start-here' }
+          { text: 'Начать здесь', link: '/start-here' },
+          { text: 'Онбординг: 10 дней', link: '/onboarding/' },
+          { text: 'Что такое Anix', link: '/company/' }
         ]
       },
       {
@@ -37,76 +63,108 @@ export default defineConfig({
         items: [
           { text: 'Sales Hub', link: '/sales/' },
           { text: 'Воронка Anix', link: '/sales/funnel' },
-          { text: 'КЭВ / ключевая встреча', link: '/sales/kev' },
-          { text: 'Выявление потребностей', link: '/sales/discovery' },
+          { text: 'Квалификация', link: '/sales/qualification' },
+          { text: 'Исследование клиента', link: '/sales/research' },
+          { text: 'Первое касание', link: '/sales/first-touch' },
+          { text: 'КЭВ / встреча', link: '/sales/kev' },
+          { text: 'Discovery', link: '/sales/discovery' },
           { text: 'Возражения', link: '/sales/objections' },
-          { text: 'Касания и follow-up', link: '/sales/follow-up' },
+          { text: 'Предложение и КП', link: '/sales/proposal' },
+          { text: 'Follow-up', link: '/sales/follow-up' },
           { text: 'CRM', link: '/sales/crm' },
-          { text: 'Гребень Продаж — конспект', link: '/sales/greben' }
+          { text: '«Гребень Продаж»', link: '/sales/greben' }
         ]
       },
       {
-        text: 'Экспертность по продукту',
+        text: 'Продукты',
         collapsed: false,
         items: [
-          { text: 'Карта экспертности', link: '/expertise/' },
-          { text: 'Словарь', link: '/expertise/glossary' },
-          { text: 'YouTube', link: '/expertise/youtube' },
-          { text: 'История бизнеса', link: '/expertise/business-history' },
-          { text: 'Производство', link: '/expertise/production' },
-          { text: 'Статьи', link: '/expertise/articles' },
-          { text: 'Путь клиента', link: '/expertise/customer-journey' },
-          { text: 'Блогеры и эксперты', link: '/expertise/creators' },
-          { text: 'Топ-кейсы', link: '/expertise/cases' }
+          { text: 'Карта продуктов', link: '/products/' },
+          { text: 'Фарма', link: '/products/pharma' },
+          { text: 'HSE и охрана труда', link: '/products/hse' },
+          { text: 'MedTech', link: '/products/medtech' },
+          { text: 'Сложный B2B', link: '/products/b2b' },
+          { text: 'Корпоративное обучение', link: '/products/learning' }
         ]
       },
       {
-        text: 'Продукт и производство',
+        text: 'Отраслевые playbook’и',
+        collapsed: true,
         items: [
-          { text: 'Линейка продуктов', link: '/products/' },
+          { text: 'Продажи в фарме', link: '/playbooks/pharma' },
+          { text: 'Продажи HSE', link: '/playbooks/hse' },
+          { text: 'Продажи MedTech', link: '/playbooks/medtech' }
+        ]
+      },
+      {
+        text: 'Производство',
+        collapsed: false,
+        items: [
           { text: 'Производственный хаб', link: '/production/' },
-          { text: 'Частые и сложные вопросы', link: '/production/faq' },
-          { text: 'Кейсы', link: '/cases/' }
+          { text: 'Хороший бриф', link: '/production/brief' },
+          { text: 'Стандарт качества', link: '/production/quality' },
+          { text: 'Правки и согласования', link: '/production/feedback' },
+          { text: 'Частые вопросы', link: '/production/faq' }
+        ]
+      },
+      {
+        text: 'Экспертность',
+        collapsed: true,
+        items: [
+          { text: 'Карта экспертности', link: '/expertise/' },
+          { text: 'Почему это работает', link: '/expertise/why-it-works' },
+          { text: 'Научная база команды', link: '/expertise/science' },
+          { text: 'Словарь', link: '/expertise/glossary' },
+          { text: 'Статьи и источники', link: '/expertise/articles' },
+          { text: 'YouTube', link: '/expertise/youtube' },
+          { text: 'Эксперты и каналы', link: '/expertise/creators' },
+          { text: 'История рынка', link: '/expertise/business-history' },
+          { text: 'Путь клиента', link: '/expertise/customer-journey' },
+          { text: 'Кейсы для экспертности', link: '/expertise/cases' }
+        ]
+      },
+      {
+        text: 'Кейсы и библиотека',
+        collapsed: false,
+        items: [
+          { text: 'Кейсы Anix', link: '/cases/' },
+          { text: 'Внутренняя библиотека', link: '/library/' },
+          { text: 'Продажи и стратегия', link: '/library/sales' },
+          { text: 'Истории и визуальный язык', link: '/library/storytelling' },
+          { text: 'Обучение и поведение', link: '/library/learning' }
         ]
       },
       {
         text: 'Коммерция',
+        collapsed: true,
         items: [
           { text: 'Финансы и договоры', link: '/finance/' },
           { text: 'Конкуренты', link: '/market/competitors' },
-          { text: 'Калькуляторы цен', link: '/calculators/' }
+          { text: 'Калькуляторы', link: '/calculators/' }
         ]
       },
       {
         text: 'Поддержка wiki',
+        collapsed: true,
         items: [
           { text: 'Шаблоны страниц', link: '/templates/' },
           { text: 'Как редактировать', link: '/contributing' }
         ]
       }
     ],
-    outline: {
-      level: [2, 3],
-      label: 'На странице'
-    },
-    docFooter: {
-      prev: 'Назад',
-      next: 'Дальше'
-    },
+    outline: { level: [2, 3], label: 'На странице' },
+    docFooter: { prev: 'Назад', next: 'Дальше' },
     editLink: {
       pattern: 'https://github.com/tsarev2709/anix_wiki/edit/main/docs/:path',
-      text: 'Редактировать эту страницу'
+      text: 'Предложить правку'
     },
     lastUpdated: {
       text: 'Обновлено',
-      formatOptions: {
-        dateStyle: 'medium',
-        timeStyle: 'short'
-      }
+      formatOptions: { dateStyle: 'medium', timeStyle: 'short' }
     },
     footer: {
-      message: 'Внутренняя база знаний Anix',
-      copyright: 'Для рабочей навигации команды'
+      message: 'Anix Wiki — рабочая система знаний',
+      copyright: 'Проверяйте статус фактов перед использованием вне команды'
     }
   }
 })
