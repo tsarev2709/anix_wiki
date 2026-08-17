@@ -1,47 +1,48 @@
-# Эксперты, каналы и профессиональные источники
+# 10 авторов и каналов по AI-video, контенту и обучению
 
-Не нужно следить за всеми. Выберите 3–5 источников под свою роль и раз в месяц приносите в wiki один применимый вывод.
+<span class="anix-kicker">Кураторский список для академии продаж</span>
 
-## Motion, AI-video и визуальный язык
+Список смешивает технологии, craft и бизнес. Подписываться на всех не нужно: выберите 3–5 и раз в месяц приносите один переносимый вывод.
 
-| Источник | Зачем следить |
-|---|---|
-| [Ben Marriott](https://www.youtube.com/@BenMarriott) | motion design, ясные разборы техники и визуального решения |
-| [School of Motion](https://www.schoolofmotion.com/blog) | индустрия, процесс, роли, качество производства |
-| [Corridor Crew](https://www.youtube.com/@CorridorCrew) | VFX / AI / production-разборы и ограничения технологий |
-| [The Futur](https://www.thefutur.com/content) | продажа креативной работы, ценность и клиентский разговор |
-| [Bruce Block](https://www.routledge.com/The-Visual-Story-Creating-the-Visual-Structure-of-Film-TV-and-Digital-Media/Block/p/book/9781138014152) | визуальная структура: пространство, линия, цвет, движение, ритм |
+| Автор / канал | Площадка | Главная тема | Что забирать в Anix |
+|---|---|---|---|
+| [Matt Wolfe](https://www.youtube.com/@mreflow) | YouTube | быстрый радар AI-инструментов | что уже стало доступно массовому клиенту; отделять демо от production |
+| [Curious Refuge](https://www.youtube.com/@CuriousRefuge) | YouTube | AI filmmaking и workflow | связка инструментов, character consistency, кейсы авторов |
+| [Corridor Crew](https://www.youtube.com/@CorridorCrew) | YouTube | VFX, AI и разбор изображения | как профессионалы замечают физику, compositing и слабые места |
+| [Ben Marriott](https://www.youtube.com/@BenMarriott) | YouTube | motion design | ритм, форма, переходы, ясность графического решения |
+| [The Futur](https://www.youtube.com/@thefutur) | YouTube / сайт | продажа креативных услуг | discovery, value, границы и презентация решения |
+| [Cathy Moore](https://blog.cathy-moore.com/) | блог | action mapping и performance-focused learning | начинать с действия, а не с запроса «сделайте курс» |
+| [Richard Mayer](https://www.cambridge.org/highereducation/books/multimedia-learning/FB7E79A165D24D47CEACEB4D2C426ECD) | книги / исследования | multimedia learning | coherence, signaling, segmenting, modality |
+| [Ann Handley](https://annhandley.com/) | рассылка / книги | B2B-контент и редактура | человеческий голос, ясность, полезность для аудитории |
+| [Jay Acunzo](https://jayacunzo.com/) | подкаст / рассылка | business storytelling | resonance, построение истории вокруг наблюдения, а не шаблона |
+| [Михаил Ильяхов / Главред](https://glvrd.ru/) | сайт / Telegram | ясный русский деловой текст | сильные формулировки, конкретика, удаление рекламного шума |
 
-## Learning design и знания
+## Дополнительные институциональные каналы
 
-| Источник | Зачем следить |
-|---|---|
-| [Richard Mayer](https://www.cambridge.org/highereducation/books/multimedia-learning/FB7E79A165D24D47CEACEB4D2C426ECD) | доказательные принципы мультимедийного обучения |
-| [Nielsen Norman Group](https://www.nngroup.com/articles/) | информационная архитектура, поиск, чтение и UX |
-| [The Learning Guild](https://www.learningguild.com/articles/) | корпоративное обучение и learning technology |
-| [GitLab Handbook](https://handbook.gitlab.com/) | масштабируемая письменная операционная система компании |
+- [Runway Research](https://runwayml.com/research) — первичные анонсы и AI Film Festival;
+- [Google DeepMind](https://deepmind.google/models/veo/) — Veo и официальные prompt-практики;
+- [OSHA](https://www.osha.gov/video) и [NIOSH](https://www.cdc.gov/niosh/) — безопасность и обучение;
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/) — медицинская и learning-наука;
+- [School of Motion](https://www.schoolofmotion.com/blog) — motion-индустрия и pipeline.
 
-## HSE
+## Как работать с источником
 
-| Источник | Зачем следить |
-|---|---|
-| [OSHA Safety Management](https://www.osha.gov/safety-management) | структурная модель hazards, controls, training и participation |
-| [NIOSH](https://www.cdc.gov/niosh/publications/list/index.html) | исследования, руководства и кейсы по безопасности труда |
-| [Минтруд России](https://mintrud.gov.ru/) | российский нормативный и методический контекст; проверять первичные документы |
+После материала продавец пишет четыре строки:
 
-## Pharma и MedTech
+1. **тезис автора**;
+2. **на чём он основан** — кейс, данные, мнение или реклама;
+3. **граница** — где тезис не работает;
+4. **изменение** — какой вопрос, слайд, production-правило или страницу wiki обновить.
 
-| Источник | Зачем следить |
-|---|---|
-| [PubMed](https://pubmed.ncbi.nlm.nih.gov/) | искать первичные медицинские исследования |
-| [RCSB PDB](https://www.rcsb.org/) | структурные модели биомолекул и первичная визуальная фактура |
-| [WHO Digital Health](https://www.who.int/health-topics/digital-health) | международный контекст цифровой медицины |
-| [Fierce Pharma](https://www.fiercepharma.com/) | запуски, маркетинг, компании и язык рынка; перепроверять первичные факты |
+## Ротация на месяц
 
-## Фильтр качества источника
+| Неделя | Фокус | Результат |
+|---|---|---|
+| 1 | новая video-модель | обновить технологический радар |
+| 2 | драматургия / motion | один разбор сцены или ролика |
+| 3 | отрасль клиента | три новых вопроса для discovery |
+| 4 | learning / content / sales | один улучшенный talk track |
 
-- первичный документ или пересказ?
-- автор отвечает за тему или комментирует со стороны?
-- факт, кейс, мнение или реклама?
-- дата и контекст применимы к России / конкретной отрасли?
-- можно ли сослаться на источник перед клиентом?
+::: warning Не цитировать охваты как компетентность
+Подписчики показывают распространение автора, а не достоверность каждого тезиса. Для научных и нормативных утверждений нужен первичный источник.
+:::

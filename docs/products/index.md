@@ -24,6 +24,29 @@
 | «Основатель объясняет продукт лично» | [Сложный B2B](/products/b2b) | на каком шаге теряется понимание? |
 | «Курс проходят, но не применяют» | [Обучение](/products/learning) | какое действие проверяем после модуля? |
 
+## Коммерческая линейка: 10 продуктов
+
+| № | Продукт | Типичный scope | Покупатель / триггер | Продолжение |
+|---|---|---|---|---|
+| 1 | AI hero film | 30–90 сек + 3 формата | marketing / запуск, event | campaign assets |
+| 2 | Product explainer | 60–120 сек + cut-down | product / сложное объяснение | demo и sales kit |
+| 3 | Visual Sales Kit | ролик + demo-scene + follow-up | Head of Sales / конференция, пилот | серия по use cases |
+| 4 | Pharma HCP package | MoA/study/brand master + версии | brand / medical / цикл HCP | портфель препаратов |
+| 5 | Patient communication | ясная история + packshot + digital | pharma marketing / запуск | multi-channel campaign |
+| 6 | HSE critical-rule series | 5–12 модулей + карточки | HSE / аудит, ремонт, подрядчики | годовая программа |
+| 7 | Corporate microlearning | сценарии + видео + проверка | L&D / обязательное обучение | библиотека модулей |
+| 8 | Mascot system | герой + bible + первый пакет | бренд / HR / HSE | ежемесячный content plan |
+| 9 | Event visual package | hero + loop + screens + vertical | marketing / фиксированная дата | post-event follow-up |
+| 10 | Prototype / creative R&D sprint | treatment + styleframes + test shot | innovation / высокий creative-risk | полноценный production |
+
+## Три масштаба покупки
+
+| Масштаб | Что покупает клиент | Когда предлагать |
+|---|---|---|
+| Pilot | одна ситуация, один master, 1–3 версии | первый совместный проект |
+| System | серия + visual bible + asset library | ценность первого решения доказана |
+| Program | квартальный/годовой план, производство и измерение | есть регулярный владелец, бюджет и контент-календарь |
+
 ## Общая формула ценности
 
 **Сложная или рискованная тема → ясная визуальная модель → единое объяснение → измеримый следующий шаг.**

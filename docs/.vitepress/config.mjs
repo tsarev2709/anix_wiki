@@ -115,12 +115,20 @@ export default defineConfig({
           { text: 'Почему это работает', link: '/expertise/why-it-works' },
           { text: 'Научная база команды', link: '/expertise/science' },
           { text: 'Словарь', link: '/expertise/glossary' },
+          { text: 'Технологический радар', link: '/expertise/toolstack' },
           { text: 'Статьи и источники', link: '/expertise/articles' },
+          { text: 'Что такое нейроанимация', link: '/expertise/articles/neuroanimation' },
+          { text: 'AI или классический production', link: '/expertise/articles/ai-vs-classic' },
+          { text: 'Видео для HSE', link: '/expertise/articles/hse-video' },
+          { text: 'Фарма и MedTech-анимация', link: '/expertise/articles/pharma-animation' },
+          { text: 'Метрики контента', link: '/expertise/articles/content-metrics' },
+          { text: 'Истории и память', link: '/expertise/articles/story-memory' },
           { text: 'YouTube', link: '/expertise/youtube' },
           { text: 'Эксперты и каналы', link: '/expertise/creators' },
           { text: 'История рынка', link: '/expertise/business-history' },
           { text: 'Путь клиента', link: '/expertise/customer-journey' },
-          { text: 'Кейсы для экспертности', link: '/expertise/cases' }
+          { text: 'Кейсы для экспертности', link: '/expertise/cases' },
+          { text: 'Аргументы и формулировки', link: '/expertise/talk-tracks' }
         ]
       },
       {
@@ -140,7 +148,7 @@ export default defineConfig({
         items: [
           { text: 'Финансы и договоры', link: '/finance/' },
           { text: 'Конкуренты', link: '/market/competitors' },
-          { text: 'Калькуляторы', link: '/calculators/' }
+          { text: 'Калькуляторы видео / фарма / HSE', link: '/calculators/' }
         ]
       },
       {

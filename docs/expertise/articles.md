@@ -4,6 +4,21 @@
 
 Здесь не склад ссылок. У каждого материала есть причина читать и конкретная ситуация, в которой он усиливает решение или разговор с клиентом.
 
+::: warning Wiki не является SEO-площадкой
+На WikiAnix включён `noindex`. Статьи ниже — учебная база и редакционные заготовки. Для SEO их нужно адаптировать и публиковать на `studio.anix-ai.pro` с собственной структурой, метаданными, иллюстрациями и CTA.
+:::
+
+## Редакционный пакет
+
+| Статья | Задача в продажах | Основной поисковый интент |
+|---|---|---|
+| [Что такое нейроанимация](/expertise/articles/neuroanimation) | объяснить категорию без магии | нейроанимация, AI-видео для бизнеса |
+| [AI-video или классический production](/expertise/articles/ai-vs-classic) | помочь выбрать подход | нейросеть или видеопродакшен |
+| [Видео для охраны труда](/expertise/articles/hse-video) | связать формат с поведением | ролики по охране труда, обучение ОТ |
+| [Анимация для фармы и MedTech](/expertise/articles/pharma-animation) | объяснить HCP/patient/MoA контур | медицинская анимация, ролик для препарата |
+| [Как измерять эффект ролика](/expertise/articles/content-metrics) | уйти от «понравилось» к данным | эффективность видео, KPI ролика |
+| [Почему истории запоминаются](/expertise/articles/story-memory) | дать научно аккуратный аргумент | сторителлинг и запоминание |
+
 ## База знаний и онбординг
 
 | Материал | Что взять | Когда использовать |
@@ -18,6 +33,7 @@
 | Материал | Что взять | Когда использовать |
 |---|---|---|
 | [Mayer — Multimedia Learning](https://www.cambridge.org/highereducation/books/multimedia-learning/FB7E79A165D24D47CEACEB4D2C426ECD) | coherence, signaling, segmenting, modality | проектирование образовательного ролика |
+| [Narrative vs expository memory: meta-analysis](https://pubmed.ncbi.nlm.nih.gov/33410100/) | более 75 выборок и 33 тыс. участников: повествовательные тексты в среднем понятнее и запоминаются лучше | аргумент про структуру истории с оговорками |
 | [Multimedia Principle](https://www.cambridge.org/core/books/multimedia-learning/multimedia-principle/1CC3DE892B0431BA48B4C4DCA10D0B8F) | слова и релевантные изображения лучше слов без визуальной модели | доказательная рамка для клиента |
 | [Health animations and health literacy](https://pubmed.ncbi.nlm.nih.gov/25586711/) | доступность медицинской информации для разной аудитории | pharma / patient education |
 | [Animation vs static images](https://pubmed.ncbi.nlm.nih.gov/27105738/) | анимация не универсально лучше статики | выбрать формат без магии |
@@ -29,6 +45,8 @@
 | [Постановление РФ № 2464](https://publication.pravo.gov.ru/Document/View/0001202112290004) | официальный базовый контекст обучения по ОТ | проверить нормативную границу |
 | [OSHA Education and Training](https://www.osha.gov/safety-management/education-training) | обучение связано с рисками, ролями и понятностью | проектирование HSE-модуля |
 | [OSHA Training Best Practices](https://www.osha.gov/harwoodgrants/best-practices) | accurate, credible, clear, practical; CBT не единственный формат | разговор о качестве обучения |
+| [NIOSH — Effectiveness of Workplace Training](https://www.cdc.gov/niosh/bulletin/2010/workplace-training.html) | обучение улучшает знания, навыки, установки и поведение; само по себе не доказало снижение травм | границы обещаний HSE |
+| [OSHA v-Tools](https://www.osha.gov/vtools/construction) | короткие истории реальных инцидентов и корректирующие действия | сценарии safety-модулей |
 
 ## Anix: публичные материалы
 
@@ -48,3 +66,17 @@
 3. для какой роли полезно;
 4. в какой сделке или проекте использовать;
 5. дату последней проверки.
+
+## Evidence ledger
+
+Для каждого сильного тезиса храним:
+
+| Поле | Пример |
+|---|---|
+| Claim | «сигналы помогают направлять внимание» |
+| Источник | Cambridge Handbook / DOI / год |
+| Тип | мета-анализ / эксперимент / регулятор / vendor case |
+| Что реально подтверждает | именно эффект cueing в multimedia learning |
+| Чего не подтверждает | рост продаж или снижение травматизма |
+| Применение | раскадровка HSE-модуля |
+| Последняя проверка | 17.08.2026 |
