@@ -68,6 +68,7 @@ export default defineConfig({
           { text: 'Первое касание', link: '/sales/first-touch' },
           { text: 'КЭВ / встреча', link: '/sales/kev' },
           { text: 'Discovery', link: '/sales/discovery' },
+          { text: 'Discovery по должностям', link: '/sales/discovery-by-role' },
           { text: 'Возражения', link: '/sales/objections' },
           { text: 'Предложение и КП', link: '/sales/proposal' },
           { text: 'Follow-up', link: '/sales/follow-up' },
@@ -112,6 +113,9 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Карта экспертности', link: '/expertise/' },
+          { text: 'Должности клиентов и KPI', link: '/expertise/roles-kpi' },
+          { text: 'Измерение эффекта', link: '/expertise/measurement' },
+          { text: 'Банк тем и касаний', link: '/expertise/topic-bank' },
           { text: 'Почему это работает', link: '/expertise/why-it-works' },
           { text: 'Научная база команды', link: '/expertise/science' },
           { text: 'Словарь', link: '/expertise/glossary' },

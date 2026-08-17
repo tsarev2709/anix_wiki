@@ -19,6 +19,8 @@
 | [Как измерять эффект ролика](/expertise/articles/content-metrics) | уйти от «понравилось» к данным | эффективность видео, KPI ролика |
 | [Почему истории запоминаются](/expertise/articles/story-memory) | дать научно аккуратный аргумент | сторителлинг и запоминание |
 
+**Следующая редакционная очередь:** [банк из 50+ тем и клиентских касаний](/expertise/topic-bank).
+
 ## База знаний и онбординг
 
 | Материал | Что взять | Когда использовать |
@@ -47,6 +49,17 @@
 | [OSHA Training Best Practices](https://www.osha.gov/harwoodgrants/best-practices) | accurate, credible, clear, practical; CBT не единственный формат | разговор о качестве обучения |
 | [NIOSH — Effectiveness of Workplace Training](https://www.cdc.gov/niosh/bulletin/2010/workplace-training.html) | обучение улучшает знания, навыки, установки и поведение; само по себе не доказало снижение травм | границы обещаний HSE |
 | [OSHA v-Tools](https://www.osha.gov/vtools/construction) | короткие истории реальных инцидентов и корректирующие действия | сценарии safety-модулей |
+
+## KPI, коммуникации и обучение
+
+| Материал | Что взять | Когда использовать |
+|---|---|---|
+| [AMEC Integrated Evaluation Framework](https://amecorg.com/amecframework/home/) | различать outputs, понимание, действие и impact | measurement plan для кампании |
+| [Kirkpatrick Model](https://www.kirkpatrickpartners.com/the-kirkpatrick-model/) | Reaction, Learning, Behavior, Results | корпоративное обучение и онбординг |
+| [OSHA Leading Indicators](https://www.osha.gov/leading-indicators) | измерять превентивные действия, а не ждать инцидента | HSE KPI и пилоты |
+| [MAPS Field Medical Metrics / KPIs](https://medicalaffairs.org/position-paper-field-medical-metrics-kpis/) | связывать активность Medical Affairs с полезным impact | разговор с Medical / MSL leadership |
+| [Salesforce Sales KPIs](https://www.salesforce.com/sales/performance-management/sales-kpis/) | win rate, conversion и другие метрики воронки | B2B / MedTech sales asset |
+| [FDA OPDP](https://www.fda.gov/about-fda/cder-offices-and-divisions/office-prescription-drug-promotion-opdp) | promotion должна быть truthful, balanced и accurate | границы фармкоммуникации |
 
 ## Anix: публичные материалы
 

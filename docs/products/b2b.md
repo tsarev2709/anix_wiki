@@ -46,6 +46,16 @@
 - [Factory Director](/cases/#factory-director) — маскот и быстрый конференционный asset.
 - [«АгроТех»](/cases/#агротех) — история вместо сухого рассказа об отрасли.
 
+## Как связывать с KPI клиента
+
+| Роль | Ближний результат Anix | Более дальняя метрика |
+|---|---|---|
+| Founder / Sales | воспроизводимое объяснение и time-to-next-step | длина цикла и win rate |
+| Product Marketing | message clarity, sales confidence, launch readiness | influenced pipeline и adoption |
+| Demand Gen | completion и квалифицированный CTA | conversion и CAC efficiency |
+
+Подробнее: [должности и KPI B2B](/expertise/roles-kpi#сложный-b2b-saas-и-технологии) · [возражения B2B](/sales/objections#сложный-b2b-и-sales-enablement).
+
 ## Питч на 30 секунд
 
 > Мы превращаем длинное объяснение сложного B2B-продукта в визуальную историю, которую можно отправить до встречи, показать на конференции и переслать внутри компании. Сначала выбираем одну мысль и один следующий шаг, затем строим сценарий и показываем решение до дорогого производства.

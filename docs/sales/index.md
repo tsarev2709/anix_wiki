@@ -17,6 +17,8 @@
   <a class="anix-card" href="/sales/kev"><strong>Провести КЭВ</strong><span>Контекст → discovery → решение → next step.</span></a>
   <a class="anix-card" href="/sales/proposal"><strong>Собрать КП</strong><span>Не каталог услуг, а логика конкретного решения.</span></a>
   <a class="anix-card" href="/sales/follow-up"><strong>Довести дальше</strong><span>Полезные касания вместо «напоминаю о себе».</span></a>
+  <a class="anix-card" href="/sales/discovery-by-role"><strong>Понять должность</strong><span>KPI, вопросы и предложение для каждой роли.</span></a>
+  <a class="anix-card" href="/sales/objections"><strong>Снять риск</strong><span>Возражения по продуктам, отраслям и коммерции.</span></a>
 </div>
 
 ## Перед любым звонком
@@ -44,6 +46,14 @@
 | Фарма | [Pharma playbook](/playbooks/pharma) | medical / legal / brand-согласования |
 | HSE | [HSE playbook](/playbooks/hse) | объект, обязательный процесс, ответственность |
 | MedTech | [MedTech playbook](/playbooks/medtech) | clinical workflow, доказательность, путь к пилоту |
+
+## Перед презентацией решения
+
+- открыть [карту должностей и KPI](/expertise/roles-kpi);
+- выбрать только тот KPI, который подтвердил клиент;
+- назвать ближнюю метрику, на которую влияет материал;
+- подготовить одно релевантное [возражение и ответ](/sales/objections);
+- согласовать [план измерения](/expertise/measurement), если KPI входит в обещание.
 
 ::: tip Контрольный вопрос
 Какой новый факт должен появиться после следующего шага? Если ответа нет, шаг, вероятно, не двигает сделку.
